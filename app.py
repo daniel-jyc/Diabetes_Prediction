@@ -121,6 +121,6 @@ def predict():
     if result == 1.0:
         st.warning('You are at risk of diabetes :warning:')
     else:
-        st.success('No risk of disbetes :thumbsup:')
+        st.success('No risk of diabetes :thumbsup:')
 
 st.button('Predict',on_click = predict)
